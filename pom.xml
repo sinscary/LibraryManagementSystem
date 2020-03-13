@@ -233,9 +233,14 @@
             <version>1.10.19</version>
             <scope>test</scope>
         </dependency>
-		
+
     </dependencies>
 	<build>
+		<testResources>
+			<testResource>
+				<directory>src/main/webapp</directory>
+			</testResource>
+		</testResources>
 		<pluginManagement>
 			<plugins>
 				<plugin>
